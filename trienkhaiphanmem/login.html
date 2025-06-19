@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập - Website của chúng tôi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Banner -->
+    <header class="banner">
+        <div class="banner-image">
+            <img src="img/logologin.png" alt="Banner Image">
+        </div>
+        <div class="banner-text">
+            <h1>Đăng nhập vào tài khoản của bạn</h1>
+            <p>Vui lòng nhập email để đăng nhập</p>
+        </div>
+    </header>
+
+    <!-- Menu Navigation -->
+    <nav class="nav-menu">
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Xem</a></li>
+            <li><a href="#">Nhập</a></li>
+            <li><a href="login.html">Đăng nhập</a></li>
+        </ul>
+    </nav>
+
+    <!-- Body Content -->
+    <main class="content">
+        <section class="login-section">
+            <h2>Đăng nhập</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <button type="submit">Xác Nhận</button>
+                <p id="error-message" class="error"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Địa chỉ:Số 343 Đội Cấn, Ba Đình, Hà Nội </p>
+        <p>Email: nguyenquandk84@gmail.com</p>
+        <p>Điện thoại:0384994815</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
